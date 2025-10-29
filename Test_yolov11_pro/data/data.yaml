@@ -1,0 +1,25 @@
+#path: D:/PycharmProjects/Test3/runs/train/archive (1)/data  # dataset root dir
+#train: data/train/images  # train images (relative to 'path')
+#val: data/val/images  # val images (relative to 'path')
+#test: data/test/images  # test images (relative to 'path')
+
+# 数据集路径配置（Windows 本地）
+path: D:\PycharmProjects\Test_yolov11_pro\data  # 数据集根目录
+
+# 子目录
+train: train/images  # 相对 path
+val: val/images
+test: val/images     # 可选，如果没有 test 集就写 val
+
+# 类别数量与名称
+nc: 2
+names: ['smoke', 'fire']
+
+# Classes
+names: ['smoke', 'fire']  # Replace with your actual class names
+
+# Counts
+nc: 2  # number of classes
+train_count: 14122
+val_count: 3099
+test_count: 4306
